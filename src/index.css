@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg 
+    transition-all duration-200 ease-in-out shadow-md hover:shadow-lg;
+  }
+
+  .btn-icon {
+    @apply p-2 rounded-full hover:bg-gray-100 transition-colors duration-200;
+  }
+
+  .game-mode-card {
+    @apply bg-gray-50 p-6 rounded-xl hover:shadow-md transition-all duration-200 
+    cursor-pointer border-2 border-transparent hover:border-blue-500;
+  }
+}
